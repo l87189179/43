@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="email" placeholder="email">
+<button onclick="check()">Submit</button>
+<p id="msg"></p>
+
+<script>
+function check(){
+  msg.innerText = email.value.includes("@") ? "OK" : "Invalid";
+}
+</script>
+</body>
+</html>
